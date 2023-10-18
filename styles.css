@@ -1,3 +1,12 @@
-body {
-  background-color: aqua;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  max-width: 450px;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid red;
 }
