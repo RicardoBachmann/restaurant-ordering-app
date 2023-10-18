@@ -12,8 +12,9 @@ export function renderMenu(menu) {
                 )}</div>
                 <div class="menu-item-price">$${item.price}</div>
                 </div>
-                <button class="add-item-btn">+</button>
+                <button class="add-item-btn" id=${item.id}>+</button>
         </div>
+        <hr />
     
     `;
   });
