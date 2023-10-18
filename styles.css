@@ -1,3 +1,65 @@
-body {
-  background-color: aqua;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  max-width: 450px;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+/* header */
+
+header {
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+/* menu */
+
+.menu {
+  margin: 50px 0 45px;
+  border: 1px solid red;
+}
+
+.menu-item {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.menu-item-icon {
+  font-size: 60px;
+  width: 95px;
+  text-align: center;
+}
+
+.menu-item-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.menu-item-ingredients {
+  font-style: italic;
+  color: gray;
+}
+
+.menu-item-price {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.add-item-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  margin-left: auto;
+  margin-top: 15px;
+  cursor: pointer;
 }
