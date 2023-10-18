@@ -8,7 +8,6 @@ main {
   max-width: 450px;
   margin: auto;
   padding: 15px;
-  border: 1px solid red;
 }
 
 /* header */
@@ -16,14 +15,12 @@ main {
 header {
   max-width: 600px;
   margin: auto;
-  border: 1px solid red;
 }
 
 /* menu */
 
 .menu {
   margin: 50px 0 45px;
-  border: 1px solid red;
 }
 
 .menu-item {
