@@ -11,6 +11,8 @@ main {
   border: 1px solid red;
 }
 
+/* menu */
+
 .menu {
   margin: 50px 0 45px;
   border: 1px solid red;
@@ -19,6 +21,7 @@ main {
 .menu-item {
   display: flex;
   width: 100%;
+  margin-top: 15px;
 }
 
 .menu-item-icon {
@@ -29,6 +32,7 @@ main {
 
 .menu-item-name {
   font-size: 20px;
+  font-weight: 600;
   margin-top: 6px;
 }
 
@@ -38,5 +42,17 @@ main {
 }
 
 .menu-item-price {
-  font-weight: 700;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.add-item-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  margin-left: auto;
+  margin-top: 15px;
+  line-height: 100%;
+  cursor: pointer;
 }

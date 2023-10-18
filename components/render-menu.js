@@ -11,7 +11,10 @@ export function renderMenu(menu) {
                   ", "
                 )}</div>
                 <div class="menu-item-price">$${item.price}</div>
-              </div>
-        </div>`;
+                </div>
+                <button class="add-item-btn">+</button>
+        </div>
+    
+    `;
   });
 }
