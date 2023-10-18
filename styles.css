@@ -10,3 +10,33 @@ main {
   padding: 15px;
   border: 1px solid red;
 }
+
+.menu {
+  margin: 50px 0 45px;
+  border: 1px solid red;
+}
+
+.menu-item {
+  display: flex;
+  width: 100%;
+}
+
+.menu-item-icon {
+  font-size: 60px;
+  width: 95px;
+  text-align: center;
+}
+
+.menu-item-name {
+  font-size: 20px;
+  margin-top: 6px;
+}
+
+.menu-item-ingredients {
+  font-style: italic;
+  color: gray;
+}
+
+.menu-item-price {
+  font-weight: 700;
+}
