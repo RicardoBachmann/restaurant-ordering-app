@@ -1,4 +1,7 @@
-function someFunction() {
-  console.log("hello");
+import menuArray from "/data.js";
+
+function renderMenu() {
+  console.log(menuArray);
 }
-someFunction();
+
+renderMenu();
